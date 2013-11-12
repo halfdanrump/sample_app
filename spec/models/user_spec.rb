@@ -38,7 +38,7 @@ describe User do
 
   describe 'when user tries to sign up with an already registered email' do
   	before{ 
-  		user2 = User.new name:'Halfdan', :email:'dalekk@gmail.com'
+  		user2 = User.new name:'Halfdan', email:'dalekk@gmail.com'
   		user2.save
   		@user.email = 'Dalekk@gmail.com'
   	}
