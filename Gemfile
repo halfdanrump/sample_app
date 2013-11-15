@@ -49,6 +49,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'factory_girl_rails', '4.2.1'
 
 
 
